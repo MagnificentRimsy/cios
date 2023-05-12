@@ -43,16 +43,24 @@ Banner Video
   ////////////////////////////////////////////////////
   // PreLoader Js
   function loader() {
-    $(window).on('load', function () {
-      $('#ctn-preloader').addClass('loaded');
+    const onLoad = () => {
+      $("#ctn-preloader").addClass("loaded");
       $("#loading").fadeOut(500);
-
-      if ($('#ctn-preloader').hasClass('loaded')) {
-        $('#preloader').delay(900).queue(function () {
-          $(this).remove();
-        });
+  
+      if ($("#ctn-preloader").hasClass("loaded")) {
+        $("#preloader")
+          .delay(900)
+          .queue(function () {
+            $(this).remove();
+          });
       }
-    });
+    };
+  
+    if (document.readyState === "loading") {
+      $(window).on("load", onLoad);
+    } else {
+      onLoad();
+    }
   }
   loader();
 

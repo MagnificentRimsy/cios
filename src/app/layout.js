@@ -28,12 +28,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      
+        <link rel='icon' href='/img/logo/logo.png' />
       </head>
       <body className={inter.className}>
         {children}
-       
         <JsScript/>
+
       </body>
     </html>
   )
