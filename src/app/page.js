@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="cp-header3-bottom-item">
                   <a
                     className="cp-header3-menu-icon side-toggle"
-                    href="{void(0)};"
+                    href="#"
                   >
                     <span>me</span>
                     <span>nu</span>
@@ -396,7 +396,7 @@ export default function Home() {
         </section>
         {/* service 3 end here  */}
         {/* case-study 3 start here  */}
-        <section className="cp-case-study3-area pt-30 pb-30 fix">
+        {/* <section className="cp-case-study3-area pt-30 pb-30 fix">
           <div className="cp-case-study3-wrap">
             <div className="row justify-content-center">
               <div className="col-xl-6 col-lg-7">
@@ -596,7 +596,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* floating area start here  */}
         <div className="cp-floating-area d-none d-sm-block zi-1100 p-relative d-none">
           <div className="cp-floating-action cp-bg-move-y">
