@@ -348,7 +348,7 @@ export default function Home() {
                         />
                       </div>
                       <h3 className="cp-service3-title">
-                        <a href="http://teach.cioss.net" target="_blank">
+                        <a href="http://tech.cioss.net" target="_blank">
                           CIOS LEARN
                           {" "}
                           <span>
