@@ -1007,6 +1007,11 @@ p {
   background-image: linear-gradient(to right, var(--clr-theme-2), var(--clr-theme-1), var(--clr-theme-1), var(--clr-theme-2));
 }
 
+.cp-btn-nav{
+  color:#ffffff !important;
+  padding-left: 20px !important;
+}
+
 .cp-btn-3:hover {
   background-position: 0% 100%;
   color: var(--clr-common-white);

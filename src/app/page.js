@@ -65,15 +65,16 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="cp-header3-bottom-item">
-                  <a className="cp-header3-logo" href="index.html">
+                  <a className="cp-header3-logo" href="/">
                     <img src="/img/logo/logo.svg" alt="logo" />
                   </a>
                 </div>
                 <div className="cp-header3-bottom-item d-none d-md-block">
                   <a
-                    className="cp-btn-3"
+                    className="cp-btn-3 cp-btn-nav"
                     data-bs-toggle="modal"
                     data-bs-target="#formPopup"
+                   
                   >
                     Get Started
                   </a>
@@ -115,7 +116,7 @@ export default function Home() {
             <div className="offset-widget offset-logo mb-50">
               <div className="row align-items-center">
                 <div className="col-9">
-                  <a href="index.html">
+                  <a href="/">
                     <img src="/img/logo/logo.svg" alt="Logo" />
                   </a>
                 </div>
@@ -298,7 +299,7 @@ export default function Home() {
                         />
                       </div>
                       <h3 className="cp-service3-title">
-                        <a href="#">
+                        <a href="http://media.cioss.net" target="_blank">
                           CIOS MEDIA{" "}
                           <span>
                             <img
@@ -311,6 +312,7 @@ export default function Home() {
                       </h3>
                     </div>
                   </div>
+                 
                   <div className="swiper-slide">
                     <div className="cp-service3-item">
                       <div className="cp-service3-img">
@@ -320,7 +322,17 @@ export default function Home() {
                         />
                       </div>
                       <h3 className="cp-service3-title">
-                        <a href="#">CIOS TECH</a>
+                        <a href="http://tech.cioss.net" target="_blank">
+                          CIOS TECH
+                          {" "}
+                          <span>
+                            <img
+                              src="/img/icon/play-icon.png"
+                              alt=""
+                              srcSet=""
+                            />
+                          </span>
+                        </a>
                       </h3>
                     </div>
                   </div>
@@ -336,7 +348,17 @@ export default function Home() {
                         />
                       </div>
                       <h3 className="cp-service3-title">
-                        <a href="#">CIOS LEARN</a>
+                        <a href="http://teach.cioss.net" target="_blank">
+                          CIOS LEARN
+                          {" "}
+                          <span>
+                            <img
+                              src="/img/icon/play-icon.png"
+                              alt=""
+                              srcSet=""
+                            />
+                          </span>
+                        </a>
                       </h3>
                     </div>
                   </div>
@@ -386,7 +408,7 @@ export default function Home() {
                       success p brands and customers.
                     </p>
                     <div className="cp-service3-btn">
-                      <a href="#">View More</a>
+                      <a href="http://tech.cioss.net" target="_blank">View More</a>
                     </div>
                   </div>
                 </div>
@@ -920,13 +942,13 @@ export default function Home() {
                     <div className="cp-footer3-widget-link">
                       <ul>
                         <li>
-                          <a href="#">CIOS Tech</a>
+                          <a href="http://tech.cioss.net" target="_blank">CIOS Tech</a>
                         </li>
                         <li>
-                          <a href="#">CIOS Learn</a>
+                          <a href="http://tech.cioss.net" target="_blank">CIOS Learn</a>
                         </li>
                         <li>
-                          <a href="#">CIOS Media</a>
+                          <a href="http://tech.cioss.net" target="_blank">CIOS Media</a>
                         </li>
                       </ul>
                     </div>
@@ -938,19 +960,19 @@ export default function Home() {
                     <div className="cp-footer3-widget-link">
                       <ul>
                         <li>
-                          <a href="#">Become Digital Expert</a>
+                          <a href="http://media.cioss.net" target="_blank">Become Digital Expert</a>
                         </li>
                         <li>
-                          <a href="#">What We Offer</a>
+                          <a href="http://media.cioss.net" target="_blank">What We Offer</a>
                         </li>
                         <li>
-                          <a href="#">Request a Quote</a>
+                          <a href="http://media.cioss.net" target="_blank">Request a Quote</a>
                         </li>
                         <li>
-                          <a href="#">For Creators</a>
+                          <a href="http://media.cioss.net" target="_blank">For Creators</a>
                         </li>
                         <li>
-                          <a href="#">News</a>
+                          <a href="http://media.cioss.net" target="_blank">News</a>
                         </li>
                       </ul>
                     </div>
@@ -962,19 +984,19 @@ export default function Home() {
                     <div className="cp-footer3-widget-link">
                       <ul>
                         <li>
-                          <a href="about.html">About</a>
+                          <a href="http://tech.cioss.net" target="_blank">About</a>
                         </li>
                         <li>
-                          <a href="#">Careers</a>
+                          <a href="http://tech.cioss.net" target="_blank">Careers</a>
                         </li>
                         <li>
-                          <a href="#">Reviews</a>
+                          <a href="http://tech.cioss.net" target="_blank">Reviews</a>
                         </li>
                         <li>
-                          <a href="contact.html">Contact</a>
+                          <a href="http://tech.cioss.net" target="_blank">Contact</a>
                         </li>
                         <li>
-                          <a href="contact.html">Help Center</a>
+                          <a href="http://tech.cioss.net" target="_blank">Help Center</a>
                         </li>
                       </ul>
                     </div>
@@ -1031,7 +1053,7 @@ export default function Home() {
                   <div className="cp-copy3-text">
                     <p>
                       Copyright From 2013 - | Design By{" "}
-                      <a target="_blank" href="#">
+                      <a href="http://tech.cioss.net" target="_blank">
                         CIOS Tech
                       </a>
                     </p>
