@@ -86,13 +86,13 @@ export default function Home() {
             <nav id="mobile-menu2">
               <ul>
                 <li>
-                  <a href="#">Who We Are</a>
+                  <a href="https://teach.cioss.net/" target='_blank'>Who We Are</a>
                 </li>
                 <li>
-                  <a href="#">Cios Learn</a>
+                  <a href="https://learn.cioss.net/" target='_blank'>Cios Learn</a>
                 </li>
                 <li>
-                  <a href="#">Cioss Media</a>
+                  <a href="https://media.cioss.net/" target='_blank'>Cioss Media</a>
                 </li>
                 <li>
                   <a
@@ -348,7 +348,7 @@ export default function Home() {
                         />
                       </div>
                       <h3 className="cp-service3-title">
-                        <a href="http://tech.cioss.net" target="_blank">
+                        <a href="http://learn.cioss.net" target="_blank">
                           CIOS LEARN
                           {" "}
                           <span>
@@ -945,7 +945,7 @@ export default function Home() {
                           <a href="http://tech.cioss.net" target="_blank">CIOS Tech</a>
                         </li>
                         <li>
-                          <a href="http://tech.cioss.net" target="_blank">CIOS Learn</a>
+                          <a href="http://learn.cioss.net" target="_blank">CIOS Learn</a>
                         </li>
                         <li>
                           <a href="http://tech.cioss.net" target="_blank">CIOS Media</a>
